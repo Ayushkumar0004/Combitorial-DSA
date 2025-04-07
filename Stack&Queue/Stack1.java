@@ -18,7 +18,7 @@ public class Stack1
 
     public static void main(String[] args) 
     {
-        String ip = "Hello World";
+        String ip = "AYUSH";
         String reversed = reverseString(ip);
         System.out.println("Original: " + ip);
         System.out.println("Reversed: " + reversed);
