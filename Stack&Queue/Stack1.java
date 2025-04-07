@@ -1,5 +1,5 @@
 import java.util.*;
-public class Stack1
+public class Stack1 
 {
     public static String reverseString(String input) 
     {
@@ -9,16 +9,15 @@ public class Stack1
             stack.push(c);
         }
         StringBuilder reversed = new StringBuilder();
-        while (!stack.isEmpty()) 
+        while (stack.size() > 0) 
         {
             reversed.append(stack.pop());
         }
         return reversed.toString();
     }
 
-    public static void main(String[] args) 
-    {
-        String ip = "AYUSH";
+    public static void main(String[] args) {
+        String ip = "Hello World";
         String reversed = reverseString(ip);
         System.out.println("Original: " + ip);
         System.out.println("Reversed: " + reversed);
