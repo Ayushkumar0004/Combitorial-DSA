@@ -1,4 +1,3 @@
-import java.util.*;
 public class Task1
 {
     public static int rec(int n)
